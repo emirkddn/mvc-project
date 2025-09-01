@@ -1,0 +1,11 @@
+<------ E TICARET WEB MVC APP ------>
+
+YOUTUBE - Sadık Turan Asp.Net MVC ile E-Ticaret Uygulaması
+https://www.youtube.com/watch?v=D1zZVleQcCA&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=1 :1.bölüm
+https://www.youtube.com/watch?v=a5xfY-tb_kQ&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=2 :2.bölüm
+
+BOOTSTRAP
+https://getbootstrap.com/docs/5.3/getting-started/introduction/
+
+ICONS
+https://fontawesome.com/v4/icons/
