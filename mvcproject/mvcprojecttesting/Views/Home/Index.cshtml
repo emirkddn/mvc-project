@@ -1,5 +1,6 @@
 ﻿@using mvcprojecttesting.Entity;
 @model IEnumerable<mvcprojecttesting.Entity.Product>
+
 @{
     ViewData["Title"] = "Index";
 }
@@ -22,7 +23,9 @@
             <div class="card">
                 <img class="card-img-top" src="holder.js/100px160/" alt="@urun.Name">
                 <div class="card-body">
-                    <h5 class="card-title">@urun.Name</h5>
+                    <h5 class="card-title">
+                        <a href="/Home/Details/@urun.Id">@urun.Name</a>
+                    </h5>
                     <p class="card-text">@urun.Description</p>
                 </div>
                 <div class="card-footer">

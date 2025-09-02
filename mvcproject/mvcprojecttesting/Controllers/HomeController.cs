@@ -11,15 +11,20 @@ namespace mvcprojecttesting.Controllers
 
         public ActionResult Index()
         {     
-            return View(_context.Products.ToList());
+            return View(_context.Products.Where(i => i.IsApproved).ToList());
         }
         public ActionResult Details(int id)
         {
-            return View();
+            var product = _context.Products.FirstOrDefault(p => p.Id == id);
+            if (product == null)
+            {
+                return HttpNotFound();
+            }
+            return View(product);
         }
         public ActionResult List()
         {
-            return View();
+            return View(_context.Products.Where(i => i.IsApproved).ToList());
         }
     }
 }

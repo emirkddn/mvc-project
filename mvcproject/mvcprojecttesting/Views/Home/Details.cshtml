@@ -1,5 +1,8 @@
-﻿@{
-	ViewData["Title"] = "Details";
+﻿@using mvcprojecttesting.Entity;
+@model Product
+
+@{
+    ViewData["Title"] = "Details";
 }
 
 <!-- PRODUCT INFORMATION -->
@@ -12,7 +15,7 @@
     <div class="col-md-6">
         <div class="row">
             <div class="col-md-12">
-                <h1>Kodak Kamera #28082024</h1>
+                <h1>@Model.Name</h1>
             </div>
         </div>
         <div class="row">
@@ -24,7 +27,7 @@
         <div class="row mt-3">
             <div class="col-md-12">
                 <div id="description">
-                    Lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+                    @Model.Description
                 </div>
                 <div class="row mt-2">
                     <div class="col-md-4">
@@ -43,7 +46,7 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-12">
-                <h4 id="product-price">$120</h4>
+                <h4 id="product-price">@Model.Price TL</h4>
             </div>
         </div>
         <div class="row mt-2">
