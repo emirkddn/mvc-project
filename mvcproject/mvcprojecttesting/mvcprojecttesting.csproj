@@ -139,6 +139,18 @@
     <Compile Include="Migrations\202509021046425_InitialCreate.Designer.cs">
       <DependentUpon>202509021046425_InitialCreate.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202509021329469_UpdateIsHomeSeed.cs" />
+    <Compile Include="Migrations\202509021329469_UpdateIsHomeSeed.Designer.cs">
+      <DependentUpon>202509021329469_UpdateIsHomeSeed.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202509021346009_AddNewProducts.cs" />
+    <Compile Include="Migrations\202509021346009_AddNewProducts.Designer.cs">
+      <DependentUpon>202509021346009_AddNewProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202509021348587_AddPhotoToProduct.cs" />
+    <Compile Include="Migrations\202509021348587_AddPhotoToProduct.Designer.cs">
+      <DependentUpon>202509021348587_AddPhotoToProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -181,7 +193,10 @@
     <Content Include="Scripts\modernizr-2.8.3.js" />
     <Content Include="theme\css\style.css" />
     <Content Include="theme\home.html" />
-    <Content Include="theme\img\camera.jpg" />
+    <Content Include="Upload\1.jpg" />
+    <Content Include="Upload\2.jpg" />
+    <Content Include="Upload\4.jpg" />
+    <Content Include="Upload\3.jpg" />
     <Content Include="theme\img\camera2.jpg" />
     <Content Include="theme\img\photo.png" />
     <Content Include="theme\img\telephone-test.jpg" />
@@ -205,6 +220,7 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Shared\_ValidationScriptsPartial.cshtml" />
+    <Content Include="Views\Shared\_ProductList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -240,6 +256,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202509021046425_InitialCreate.resx">
       <DependentUpon>202509021046425_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202509021329469_UpdateIsHomeSeed.resx">
+      <DependentUpon>202509021329469_UpdateIsHomeSeed.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202509021346009_AddNewProducts.resx">
+      <DependentUpon>202509021346009_AddNewProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202509021348587_AddPhotoToProduct.resx">
+      <DependentUpon>202509021348587_AddPhotoToProduct.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

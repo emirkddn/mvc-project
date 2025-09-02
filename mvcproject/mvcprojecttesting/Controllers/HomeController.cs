@@ -11,7 +11,7 @@ namespace mvcprojecttesting.Controllers
 
         public ActionResult Index()
         {     
-            return View(_context.Products.Where(i => i.IsApproved).ToList());
+            return View(_context.Products.Where(i => i.IsHome && i.IsApproved).ToList());
         }
         public ActionResult Details(int id)
         {

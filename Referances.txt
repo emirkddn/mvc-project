@@ -1,8 +1,13 @@
 <------ E TICARET WEB MVC APP ------>
 
 YOUTUBE - Sadık Turan Asp.Net MVC ile E-Ticaret Uygulaması
-https://www.youtube.com/watch?v=D1zZVleQcCA&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=1 :1.bölüm
-https://www.youtube.com/watch?v=a5xfY-tb_kQ&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=2 :2.bölüm
+https://www.youtube.com/watch?v=D1zZVleQcCA&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=1 :episode1
+https://www.youtube.com/watch?v=a5xfY-tb_kQ&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=2 :episode2
+https://www.youtube.com/watch?v=0irqhtGRQ0k&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=3 :episode3
+
+THE OTHER YOUTUBE VIDEOS
+https://www.youtube.com/watch?v=eep2l5jfs5c
+https://www.youtube.com/watch?v=P6y0R3XzWlc
 
 BOOTSTRAP
 https://getbootstrap.com/docs/5.3/getting-started/introduction/
@@ -13,4 +18,6 @@ https://fontawesome.com/v4/icons/
 STACKOVERFLOW
 https://stackoverflow.com/questions/62079870/how-do-launchsettings-json-and-appsettings-json-work
 
-Server=(localdb)\mssqllocaldb;Database=aspnet-53bc9b9d-9d6a-45d4-8429-2a2761773502;Trusted_Connection=True;MultipleActiveResultSets=true
+MICROSOFT LEARN
+https://learn.microsoft.com/en-us/ef/core/miscellaneous/connection-strings?tabs=dotnet-core-cli
+https://learn.microsoft.com/en-us/sql/database-engine/install-windows/configure-sql-server-on-a-server-core-installation?view=sql-server-ver16
