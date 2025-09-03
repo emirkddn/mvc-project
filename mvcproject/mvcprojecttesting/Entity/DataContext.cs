@@ -5,7 +5,7 @@ namespace mvcprojecttesting.Entity
 {
     public class DataContext : DbContext
     {
-        public DataContext() : base("benbenbenben")
+        public DataContext() : base("helloDb")
         {
             Database.SetInitializer(new DataInitializater());
         }

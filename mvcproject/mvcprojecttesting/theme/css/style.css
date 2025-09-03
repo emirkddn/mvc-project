@@ -4,13 +4,32 @@
     height = 100%;
 }
 
-#write-review{
-    margin-left: -50px;
+.card-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    line-height: 1.35em;
+    height: 34px;
 }
 
-#product-price{
-    font-size: 28px;
+.product-price {
+    font-size: 15px;
     color: red;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 12px;
+    height: 40px;
+}
+
+#product-details h1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#write-review{
+    margin-left: -50px;
 }
 
 /* Sticky footer styles
