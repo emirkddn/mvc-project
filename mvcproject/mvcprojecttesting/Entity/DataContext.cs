@@ -1,11 +1,13 @@
 ﻿using System.Data.Entity;
+using Microsoft.AspNet.Identity.EntityFramework;
 using mvcprojecttesting.Entity;
+using mvcprojecttesting.Identity;
 
 namespace mvcprojecttesting.Entity
 {
     public class DataContext : DbContext
     {
-        public DataContext() : base("helloDb")
+        public DataContext() : base("ikiikidortDb")
         {
             Database.SetInitializer(new DataInitializater());
         }

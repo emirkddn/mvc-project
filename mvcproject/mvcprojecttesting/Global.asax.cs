@@ -7,6 +7,7 @@ using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
 using mvcprojecttesting.Entity;
+using mvcprojecttesting.Identity;
 
 namespace mvcprojecttesting
 {
@@ -18,6 +19,9 @@ namespace mvcprojecttesting
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            
+            Database.SetInitializer(new DataInitializater());
+            Database.SetInitializer(new IdentityInitializer());
         }
     }
 }

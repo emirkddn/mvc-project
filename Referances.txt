@@ -5,6 +5,7 @@ https://www.youtube.com/watch?v=D1zZVleQcCA&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBT
 https://www.youtube.com/watch?v=a5xfY-tb_kQ&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=2 :episode2
 https://www.youtube.com/watch?v=0irqhtGRQ0k&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=3 :episode3
 https://www.youtube.com/watch?v=0mjvUVc-7Zs&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=4 :episode4
+https://www.youtube.com/watch?v=ODxcWFQI1Rs&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=5 :episode5
 
 THE OTHER YOUTUBE VIDEOS
 https://www.youtube.com/watch?v=eep2l5jfs5c
@@ -22,3 +23,17 @@ https://stackoverflow.com/questions/62079870/how-do-launchsettings-json-and-apps
 MICROSOFT LEARN
 https://learn.microsoft.com/en-us/ef/core/miscellaneous/connection-strings?tabs=dotnet-core-cli
 https://learn.microsoft.com/en-us/sql/database-engine/install-windows/configure-sql-server-on-a-server-core-installation?view=sql-server-ver16
+
+
+<!-- JUMBOTRON -->
+<div class="jumbotron">
+    <div class="container">
+        <h1 class="display-4">Hello, world!</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <p class="lead">
+            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+        </p>
+    </div>
+</div>
