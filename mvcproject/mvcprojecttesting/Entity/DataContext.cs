@@ -7,13 +7,15 @@ namespace mvcprojecttesting.Entity
 {
     public class DataContext : DbContext
     {
-        public DataContext() : base("ikiikidortDb")
+        public DataContext() : base("denedendededneDb")
         {
             Database.SetInitializer(new DataInitializater());
         }
 
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderLine> OrderLines { get; set; }
 
     }
 }

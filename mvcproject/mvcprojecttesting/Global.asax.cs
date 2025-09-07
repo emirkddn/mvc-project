@@ -20,7 +20,7 @@ namespace mvcprojecttesting
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             
-            Database.SetInitializer(new DataInitializater());
+            //Database.SetInitializer(new DataInitializater());
             Database.SetInitializer(new IdentityInitializer());
         }
     }
