@@ -4,7 +4,7 @@ Bu proje, .NET Framework 4.6.1
 ve C# programlama dili 
 kullanılarak geliştirilmiş bir MVC tabanlı e-ticaret web uygulamasıdır.
 
-# Uygulamanın temel özellikleri:
+## Uygulamanın temel özellikleri:
 
 Kullanıcılar ürünleri inceleyebilir, sepete ekleyebilir ve sipariş oluşturabilir.
 
