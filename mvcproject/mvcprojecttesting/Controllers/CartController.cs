@@ -88,7 +88,9 @@ namespace mvcprojecttesting.Controllers
             order.OrderNumber = "A" + (new Random()).Next(11111,99999).ToString();
             order.Total = cart.Total();
             order.OrderDate = DateTime.Now;
-            order.Username = entity.Username;
+            order.OrderState = EnumOrderState.Waiting;
+            order.Username = User.Identity.Name;
+            
             order.AdresBasligi = entity.AdresBasligi;
             order.Adres1 = entity.Adres1;
             order.Sehir = entity.Sehir;

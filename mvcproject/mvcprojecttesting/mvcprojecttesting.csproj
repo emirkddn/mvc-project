@@ -159,10 +159,12 @@
     <Compile Include="Controllers\CartController.cs" />
     <Compile Include="Controllers\CategoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Entity\Category.cs" />
     <Compile Include="Entity\DataContext.cs" />
     <Compile Include="Entity\DataInitializater.cs" />
+    <Compile Include="Entity\EnumOrderState.cs" />
     <Compile Include="Entity\IdentityDataContext.cs" />
     <Compile Include="Entity\Order.cs" />
     <Compile Include="Entity\Product.cs" />
@@ -172,16 +174,19 @@
     <Compile Include="Identity\ApplicationRole.cs" />
     <Compile Include="Identity\ApplicationUser.cs" />
     <Compile Include="Identity\IdentityInitializer.cs" />
-    <Compile Include="Migrations\202509070935334_InitialCreate.cs" />
-    <Compile Include="Migrations\202509070935334_InitialCreate.Designer.cs">
-      <DependentUpon>202509070935334_InitialCreate.cs</DependentUpon>
+    <Compile Include="Migrations\202509071958109_InitialCreate.cs" />
+    <Compile Include="Migrations\202509071958109_InitialCreate.Designer.cs">
+      <DependentUpon>202509071958109_InitialCreate.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\AdminOrderModel.cs" />
     <Compile Include="Models\Cart.cs" />
     <Compile Include="Models\Login.cs" />
+    <Compile Include="Models\OrderDetailsModel.cs" />
     <Compile Include="Models\ProductModel.cs" />
     <Compile Include="Models\Register.cs" />
     <Compile Include="Models\ShippingDetails.cs" />
+    <Compile Include="Models\UserOrderModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -271,6 +276,10 @@
     <Content Include="Views\Cart\Summary.cshtml" />
     <Content Include="Views\Cart\Checkout.cshtml" />
     <Content Include="Views\Cart\Completed.cshtml" />
+    <Content Include="Views\Account\Index.cshtml" />
+    <Content Include="Views\Account\Details.cshtml" />
+    <Content Include="Views\Order\Index.cshtml" />
+    <Content Include="Views\Order\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -303,8 +312,8 @@
     <Content Include="Scripts\jquery-3.7.0.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202509070935334_InitialCreate.resx">
-      <DependentUpon>202509070935334_InitialCreate.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202509071958109_InitialCreate.resx">
+      <DependentUpon>202509071958109_InitialCreate.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
