@@ -6,6 +6,9 @@ https://www.youtube.com/watch?v=a5xfY-tb_kQ&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBT
 https://www.youtube.com/watch?v=0irqhtGRQ0k&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=3 :episode3
 https://www.youtube.com/watch?v=0mjvUVc-7Zs&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=4 :episode4
 https://www.youtube.com/watch?v=ODxcWFQI1Rs&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=5 :episode5
+https://www.youtube.com/watch?v=DPcCIMvAGbQ&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=8 :episode6
+https://www.youtube.com/watch?v=_YMjc-gTuQg&list=PLXuv2PShkuHx1ojAJU-fCaxNYDIsBTELp&index=7 :episode7
+
 
 THE OTHER YOUTUBE VIDEOS
 https://www.youtube.com/watch?v=eep2l5jfs5c
@@ -99,5 +102,5 @@ https://learn.microsoft.com/en-us/sql/database-engine/install-windows/configure-
 
 
 
-
+service.univeradonusum :name
 
